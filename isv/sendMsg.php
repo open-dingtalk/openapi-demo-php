@@ -7,6 +7,8 @@ require_once(__DIR__ . "/api/User.php");
 require_once(__DIR__ . "/api/Message.php");
 require_once(__DIR__ . "/api/ISVClass.php");
 
+// test
+
 $event = $_POST["event"];
 switch($event){
     case '':
